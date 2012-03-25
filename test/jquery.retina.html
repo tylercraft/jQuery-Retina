@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jquery.retina Test Suite</title>
+  <!-- Load local jQuery, removing access to $ (use jQuery, not $). -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>jQuery.noConflict()</script>
+  <!-- Load local QUnit (grunt requires v1.0.0 or newer). -->
+  <link rel="stylesheet" href="../libs/qunit/qunit.css" media="screen">
+  <script src="../libs/qunit/qunit.js"></script>
+  <!-- Load local lib and tests. -->
+  <script src="jquery.retina_test.js"></script>
+  <script src="../src/jquery.retina.js"></script>
+</head>
+<body>
+  <h1 id="qunit-header">jquery.retina Test Suite</h1>
+  <h2 id="qunit-banner"></h2>
+  <div id="qunit-testrunner-toolbar"></div>
+  <h2 id="qunit-userAgent"></h2>
+  <ol id="qunit-tests"></ol>
+  <div id="qunit-fixture">
+    <div class="test-pair" id="test-1"><img src="http://farm6.staticflickr.com/5314/5866513236_4f92f9fab6_n.jpg" data-retina="http://farm6.staticflickr.com/5314/5866513236_4f92f9fab6_z.jpg"></div>
+
+    <div class="test-pair" id="test-2"><img src="http://farm8.staticflickr.com/7194/6869244165_ea97e831c4_n.jpg" data-retina="http://farm8.staticflickr.com/7194/6869244165_ea97e831c4_z.jpg"></div>
+
+    <div class="test-pair" id="test-3"><img src="http://farm5.staticflickr.com/4114/4916734631_f2b8f2e296_n.jpg" class="retina"></div>
+
+  </div>
+</body>
+</html>

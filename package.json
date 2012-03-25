@@ -1,0 +1,32 @@
+{
+  "name": "jquery.retina",
+  "title": "jQuery Retina Plugin",
+  "description": "A jQuery plugin for swapping out images with images scaled for retina displays",
+  "version": "1.0",
+  "homepage": "https://github.com/tylercraft/jQuery-Retina",
+  "author": {
+    "name": "Tyler Craft",
+    "email": "tyler@tylercraft.com",
+    "url": "http://tylercraft.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tylercraft/jQuery-Retina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tylercraft/jQuery-Retina/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tylercraft/jQuery-Retina/blob/master/LICENSE-MIT"
+    },
+    {
+      "type": "GPL",
+      "url": "https://github.com/tylercraft/jQuery-Retina/blob/master/LICENSE-GPL"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": []
+}

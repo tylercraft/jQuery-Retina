@@ -1,0 +1,26 @@
+{
+    "name": "jQuery-Retina-Plugin",
+    "label": "jQuery Twitter Plugin",
+    "license": [
+        "mit",
+        "gpl" 
+    ],
+    "description": "A jQuery plugin for swapping out images with images scaled for retina displays",
+    "copyright": "2012 Tyler Craft",
+    "version": "1.0",
+    "clone": "https://tylercraft@github.com/tylercraft/jQuery-Retina.git",
+    "repository": "https://github.com/tylercraft/jQuery-Retina",
+    "issues": "https://github.com/tylercraft/jQuery-Retina",
+    "dependencies" : {
+        "jquery/jquery" : [
+            "1.7.1" 
+        ] 
+    },
+    "owner": "tylercraft",
+    "maintainers": [
+        {
+            "name": "Tyler Craft",
+            "twitter": "tylercraft" 
+        }
+    ]
+}
