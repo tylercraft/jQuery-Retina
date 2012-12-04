@@ -33,7 +33,7 @@
     var retinaEnabled = false;
     
     // If retina enabled only
-    if(settings.overridePixelRation || window.devicePixelRatio >= 2) {
+    if(settings.overridePixelRation || window.devicePixelRatio >= 1.2) {
       retinaEnabled = true;
     }
     
