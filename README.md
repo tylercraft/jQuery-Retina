@@ -67,7 +67,7 @@ $('img').retina({
 	 // Callback function if custom logic needs to be applied to image file name
 	 customFileNameCallback: "",
 	 // override window.devicePixelRatio
-	 overridePixelRation: false
+	 overridePixelRatio: false
 });
 ```
 
